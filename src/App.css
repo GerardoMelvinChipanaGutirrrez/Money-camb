@@ -1,0 +1,54 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+:root{
+  --color-background:brown;
+}
+.conten-bg{
+  background-color: var(--color-background);
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  .conten-ban{
+    background-color: burlywood;
+    /* background-color: rgb(218, 157, 78); */
+    padding: 2rem;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    border-radius: 15px;
+    box-shadow: inset -8px -10px rgb(218, 157, 78);
+    /* box-shadow: inset -8px -10px burlywood; */
+    gap: 15px;
+    h1{
+      color: rgb(119, 103, 81);
+    }
+    .form-conten{
+      gap: 1rem;
+      display: grid;
+      div{
+        border-radius: 10px;
+        height: 3rem;
+        overflow: hidden;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+      }
+      select{
+        padding: 5px;
+        border: none;
+        border-radius: 5px 0px 0px 5px;
+        height: 100%;
+      }
+      input{
+        padding: 5px;
+        border: none;
+        border-radius: 0px 5px 5px 0px;
+        height: 100%;
+      }
+    }
+  }
+}
