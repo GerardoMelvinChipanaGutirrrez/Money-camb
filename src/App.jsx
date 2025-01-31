@@ -9,7 +9,7 @@ function App() {
       <div>
         <div className='conten-bg'>
           <div className='conten-ban'>
-          <h1 htmlFor="">Cambio de Moneda</h1>
+          <h1 className="Title-prom" htmlFor="">Cambio de Moneda</h1>
           <CambioMoney />
           </div>
         </div>

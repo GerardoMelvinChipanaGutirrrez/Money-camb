@@ -1,5 +1,6 @@
 {
     "USD": {
+      "traducion":"Dólar USA",
       "CAD": 1.35,
       "CHF": 0.85,
       "CNY": 7.12,
@@ -9,6 +10,7 @@
       "PEN": 3.74
     },
     "CAD": {
+      "traducion":"Dólar Canadiense",
       "USD": 0.74,
       "CHF": 0.63,
       "CNY": 5.27,
@@ -18,6 +20,7 @@
       "PEN": 2.77
     },
     "CHF": {
+      "traducion":"Franco suizo",
       "CAD": 1.60,
       "USD": 1.18,
       "CNY": 8.41,
@@ -27,6 +30,7 @@
       "PEN": 4.42
     },
     "CNY": {
+      "traducion":"Yuan chino",
       "CHF": 0.12,
       "CAD": 0.19,
       "USD": 0.14,
@@ -36,6 +40,7 @@
       "PEN": 0.53
     },
     "EUR": {
+      "traducion":"Euro",
       "CNY": 7.97,
       "CHF": 0.95,
       "CAD": 1.51,
@@ -45,6 +50,7 @@
       "PEN": 4.19
     },
     "GBP": {
+      "traducion":"Libra esterlina",
       "EUR": 1.18,
       "CNY": 9.40,
       "CHF": 1.12,
@@ -54,6 +60,7 @@
       "PEN": 4.94
     },
     "JPY": {
+      "traducion":"Yen japonés",
       "GBP": 0.01,
       "EUR": 0.01,
       "CNY": 0.05,
@@ -63,6 +70,7 @@
       "PEN": 0.03
     },
     "PEN": {
+      "traducion":"Nuevo Sol",
       "JPY": 38.38,
       "GBP": 0.20,
       "EUR": 0.24,
@@ -71,7 +79,7 @@
       "CAD": 0.36,
       "USD": 0.27
     },
-    "updated": "2024-08-26 02:22:51",
+    "updated": "26-08-2024",
     "ms": 1
   }
   

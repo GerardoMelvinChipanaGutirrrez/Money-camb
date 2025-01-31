@@ -1,6 +1,7 @@
 *{
   padding: 0px;
   margin: 0px;
+  font-family: sans-serif ;
 }
 :root{
   --color-background:brown;
@@ -29,6 +30,17 @@
     gap: 15px;
     h1{
       color: #fff;
+    }
+    .Title-prom{
+      font-size: 45px;
+    }
+    .content-divisas{
+      display: flex;
+      gap: 1rem;
+    }
+    .val-cambio{
+      color: #fff;
+      display: grid;
     }
     .form-conten{
       gap: 1rem;
