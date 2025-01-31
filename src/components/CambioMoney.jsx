@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import tasas from "./ValueMoney.json"; // Asegúrate de tener el archivo tasas.json en la misma carpeta
 
 function CambioMoney() {
@@ -9,7 +9,7 @@ function CambioMoney() {
 
   useEffect(() => {
     const tasa = tasas[moneda1]?.[moneda2] || 1;
-    setValor2(valor1 * tasa);
+    setValor2(parseFloat((valor1 * tasa).toFixed(2)));
   }, [valor1, moneda1, moneda2]);
 
   return (
@@ -17,7 +17,7 @@ function CambioMoney() {
       <div>
         <select value={moneda1} onChange={(e) => setMoneda1(e.target.value)} id="Money1">
           <option value="USD">Dólar USA</option>
-          <option value="PEN">Sol</option>
+          <option value="PEN">Nuevo Sol</option>
           <option value="EUR">Euro</option>
           <option value="GBP">Libra esterlina</option>
           <option value="CHF">Franco suizo</option>
@@ -34,7 +34,7 @@ function CambioMoney() {
       </div>
       <div>
         <select value={moneda2} onChange={(e) => setMoneda2(e.target.value)} id="Money2">
-          <option value="PEN">Sol</option>
+          <option value="PEN">Nuevo Sol</option>
           <option value="USD">Dólar USA</option>
           <option value="EUR">Euro</option>
           <option value="GBP">Libra esterlina</option>
